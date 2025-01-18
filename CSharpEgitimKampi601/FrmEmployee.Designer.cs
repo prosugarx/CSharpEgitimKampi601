@@ -90,6 +90,7 @@
             this.btnCreat.TabIndex = 46;
             this.btnCreat.Text = "Ekle";
             this.btnCreat.UseVisualStyleBackColor = false;
+            this.btnCreat.Click += new System.EventHandler(this.btnCreat_Click);
             // 
             // btnDelete
             // 
@@ -228,6 +229,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmEmployee";
             this.Text = "FrmEmployee";
+            this.Load += new System.EventHandler(this.FrmEmployee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
